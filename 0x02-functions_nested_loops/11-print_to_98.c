@@ -3,11 +3,11 @@
 
 
 /**
- * print_to_98 - Check main
+ * print_to_98 - Check main function
  * @n: A input integer
- * Description: function that prints all natural numbers
+ * Description: function that prints set off all N nbers
  * from n to 98, followed by a new line.
- * Return: Nothing
+ * Return: null
  */
 void print_to_98(int n)
 {
