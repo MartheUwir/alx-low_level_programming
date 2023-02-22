@@ -3,8 +3,8 @@
 
 /**
  * times_table - Check codes
- * Description: It prints 9 times table starting with 0
- * Return: Nothing.
+ * Description: It prints 9 times table start from 0
+ * Return: Ubusa.
  */
 void times_table(void)
 {
@@ -32,7 +32,7 @@ void times_table(void)
 				_putchar((n / 10) + '0');
 				_putchar((n % 10) + '0');
 				if (j == 9)
-					continue;
+				continue;
 				_putchar(',');
 				_putchar(' ');
 			}
