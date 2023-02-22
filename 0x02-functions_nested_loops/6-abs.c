@@ -2,9 +2,9 @@
 
 
 /**
- *_abs - Check main
- * @r: An integrer input
- * Description: This function returns absolute value of a number
+ *_abs - Check main function
+ * @r: integrer input
+ * Description: This function returns absolute value of r number
  * Return: Absolute value of number r
  */
 int _abs(int r)
