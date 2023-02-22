@@ -2,15 +2,15 @@
 
 
 /**
- *_abs - Check main
- * @r: An integre input
- * Description: This function returns absolute value of a number
- * Return: Absolut value of number r
+ *_abs - Check main function
+ * @r: input integer
+ * Description: function returns absolute value of number m
+ * Return: number m's absolute value
  */
-int _abs(int r)
+int _abs(int m)
 {
-	if (r >= 0)
-		return (r);
+	if (m >= 0)
+		return (m);
 	else
-		return (r * -1);
+		return (m * -1);
 }
