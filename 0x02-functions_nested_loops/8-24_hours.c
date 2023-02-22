@@ -2,9 +2,9 @@
 
 
 /**
- * jack_bauer - Check main
- * Description: function prints every minute in one day
- * Return: Nothing
+ * jack_bauer - Check main function
+ * Description: this fucntion prints every minute in a single day
+ * Return: Null
  */
 void jack_bauer(void)
 {
