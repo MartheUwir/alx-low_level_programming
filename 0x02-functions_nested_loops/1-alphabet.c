@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
- * print_alphabet - go and check on Ddescription
- * Description: this function prints the alphabet in lowercase fallowed by a new line
- * Return: empty(null ).
+ * print_alphabet - Check description
+ * Description: functions that prints alphabet in lowercase and a new line
+ * Return: Null.
  */
+
 void print_alphabet(void)
 {
 	char i;
