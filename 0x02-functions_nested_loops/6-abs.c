@@ -2,10 +2,10 @@
 
 
 /**
- *_abs - Check mainfunction
- * @r: input integer
- * Description: function returns absolute value of r 
- * Return: number r's absolute value
+ *_abs - Check main
+ * @r: An integrer input
+ * Description: This function returns absolute value of a number
+ * Return: Absolute value of number r
  */
 int _abs(int r)
 {
