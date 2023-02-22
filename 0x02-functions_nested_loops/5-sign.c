@@ -2,9 +2,9 @@
 
 
 /**
- * print_sign - Check main
+ * print_sign - Check main function
  * @n: number input
- * Description: Tohis function prints the sign of the number
+ * Description: its a function to print sign of number
  * Return: 1 if number is positive, o if number is 0, or
  *  -1 for negative bumber
  */
