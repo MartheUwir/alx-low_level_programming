@@ -4,13 +4,13 @@
 /**
  *_abs - Check main function
  * @r: input integer
- * Description: function returns absolute value of number m
- * Return: number m's absolute value
+ * Description: function returns absolute value of r 
+ * Return: number r's absolute value
  */
-int _abs(int m)
+int _abs(int r)
 {
-	if (m >= 0)
-		return (m);
+	if (r >= 0)
+		return (r);
 	else
-		return (m * -1);
+		return (r * -1);
 }
