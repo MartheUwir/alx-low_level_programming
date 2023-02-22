@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * add - observe main
+ * add - Check main
  * @a: An integer a
  * @b: An integer b
- * Description: This function returns result off addition 
- * Return: Result from a and b addition
+ * Description: Function that adds two integers and returns the result
+ * Return: Result from adding a and b
  */
 int add(int a, int b)
 {
