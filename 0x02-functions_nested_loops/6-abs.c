@@ -2,7 +2,7 @@
 
 
 /**
- *_abs - Check main function
+ *_abs - Check mainfunction
  * @r: input integer
  * Description: function returns absolute value of r 
  * Return: number r's absolute value
