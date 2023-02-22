@@ -2,9 +2,11 @@
 
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_sign - Check main
+ * @n: number input
+ * Description: Tohis function prints the sign of the number
+ * Return: 1 if number is positive, o if number is 0, or
+ *  -1 for negative bumber
  */
 int print_sign(int n)
 {

@@ -1,11 +1,13 @@
 #include "main.h"
 
+
 /**
- * main - check the code
- *
- * Return: Always 0.
- */ 
-int print_last_digit(int r)
+ * print_last_digit - Check main
+ * @r: An integer input
+ * Description: This function prints the last digit of a number
+ * Return: last digit of number k
+ */
+int print_last_digit(int k)
 {
 	int n;
 
