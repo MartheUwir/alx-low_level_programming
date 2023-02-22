@@ -2,9 +2,9 @@
 
 
 /**
- * print_alphabet_x10 - Look on main 
+ * print_alphabet_x10 - check main 
  * Description: function uses _putchar function to print
- * lowercase 10 times in alphabet 
+ * alphabet in lowercase ten times
  * Return: Null.
  */
 
