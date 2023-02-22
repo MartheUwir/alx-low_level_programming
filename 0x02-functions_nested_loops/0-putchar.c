@@ -3,8 +3,8 @@
 
 
 /**
- * description
- * this program prints main word followed by the new line
+ * main -Check description
+ * Description:this program prints main word followed by the new line
  * Return: 0
  */
 int main(void)
