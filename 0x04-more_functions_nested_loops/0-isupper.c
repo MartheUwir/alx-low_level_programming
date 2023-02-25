@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * _isupper - is defined in main to check fo ruppercase char
+ * @c: characted inputed
+ * Return: 1 for success and 0 for failure 
  */
 int _isupper(int c)
 {
