@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_line - is  function that draws nrew line in terminal.
- @n: An input integer
- * new line follows this.
- * Return: Always 0
+  * print_line - is  function that draws nrew .
+  *@n: An input integer
+  * new line follows this.
+  * Return: Always 0
  */
 void print_line(int n)
 {
