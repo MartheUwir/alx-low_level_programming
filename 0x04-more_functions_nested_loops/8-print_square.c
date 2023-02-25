@@ -4,7 +4,7 @@
   * print_square - Write a function that prints a square.
   * @size: an input integer
   * followed by new line.
-  * Retun: Always 0
+  * Return: Always 0
  */
 void print_square(int size)
 {

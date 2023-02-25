@@ -1,25 +1,27 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
-  * print_square - a function that prints a square,
-  *@size: An input integer
-  * followed by a new line.
-  * Return: Always 0
+ * main - an interview question
+ *Each number or word should be separated by a space
+ * Return: Always 0
  */
-void print_square(int size)
+int main(void)
 {
-	int i, j;
+	int i = 1;
 
-	if (size > 0)
+	for (; i < 100 ; i++)
 	{
-		for (i = 0; i < size; i++)
-		{
-			for (j = 0; j < size; j++)
-				_putchar('#');
-			_putchar('\n');
-		}
+		if (i % 3 == 0 && i % 5 == 0)
+			printf("FizzBuzz ");
+		else if (i % 3 == 0)
+			printf("Fizz ");
+		else if (i % 5 == 0)
+			printf("Buzz ");
+		else
+			printf("%d ", i);
 	}
-	else
-		_putchar('\n');
-}
+	printf("Buzz\n");
 
+	return (0);
+}
