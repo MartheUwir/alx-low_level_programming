@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _isupper - is defined in main to check fo ruppercase char
- * @c: characted inputed
+ * _isupper - is defined in main to check fo ruppercase char.
+ * @c: A characted inputed
  * Return: 1 for success and 0 for failure 
  */
 int _isupper(int c)
