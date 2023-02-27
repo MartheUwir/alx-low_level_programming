@@ -10,11 +10,14 @@
  *
  * Return: pointer to dest
  */
-char *_strcpy(char *dest, char *src)
-{
-	char *aux = dest;
+char *_strcpy(char *dest, char *src) {
+    char *dest_start = dest;
 
-	while (*src)
-		*dest++ = *src++;
-	return (aux);
+    while (*src != '\0') {
+        *dest++ = *src++;
+    }
+
+    *dest = '\0';
+
+    return (dest_start);
 }
