@@ -2,10 +2,12 @@
 #include <stdio.h>
 
 /**
- * main - check the code 
+ * reset_to_98 - updates the value of the integer pointed to by *n to 98
+ * @n: pointer to integer
  *
- * Return: Always 0.
+ * Return: void
  */
+
 int main(void)
 {
     int n;
