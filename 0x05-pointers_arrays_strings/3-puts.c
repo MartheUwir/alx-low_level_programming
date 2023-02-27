@@ -6,8 +6,12 @@
  */
 void _puts(char *str)
 {
-    if (str == NULL)
-        return;
+    int i = 0;
 
-    printf("%s\n", str);
+    while (str[i] != '\0')
+    {
+        putchar(str[i]);
+        i++;
+    }
+    putchar('\n');
 }
