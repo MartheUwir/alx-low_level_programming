@@ -1,30 +1,31 @@
-#include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-/**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
+#define PASSWORD_LENGTH 12
+
 int main(void)
 {
-  int n;
+    char password[PASSWORD_LENGTH + 1]; // +1 for null terminator
 
-  n = _atoi("98");
-  printf("%d\n", n);
-  n = _atoi("-402");
-  printf("%d\n", n);
-  n = _atoi("          ------++++++-----+++++--98");
-  printf("%d\n", n);
-  n = _atoi("214748364");
-  printf("%d\n", n);
-  n = _atoi("0");
-  printf("%d\n", n);
-  n = _atoi("Suite 402");
-  printf("%d\n", n);
-  n = _atoi("         +      +    -    -98 Battery Street; San Francisco, CA 94111 - USA             ");
-  printf("%d\n", n);
-  n = _atoi("---++++ -++ Sui - te -   402 #cisfun :)");
-  printf("%d\n", n);
-  return (0);
+    // Seed the random number generator
+    srand(time(NULL));
+
+    // Generate a random password
+    for (int i = 0; i < PASSWORD_LENGTH; i++) {
+        int random = rand() % 62; // 26 lowercase letters + 26 uppercase letters + 10 digits
+        if (random < 26) {
+            password[i] = 'a' + random; // lowercase letter
+        } else if (random < 52) {
+            password[i] = 'A' + random - 26; // uppercase letter
+        } else {
+            password[i] = '0' + random - 52; // digit
+        }
+    }
+    password[PASSWORD_LENGTH] = '\0'; // add null terminator
+
+    // Print the password
+    printf("%s\n", password);
+
+    return 0;
 }
