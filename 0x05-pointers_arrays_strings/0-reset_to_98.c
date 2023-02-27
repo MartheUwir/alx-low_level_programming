@@ -7,8 +7,6 @@
  *
  * Return: void
  */
-
-int main(void)
 {
     int n;
 
