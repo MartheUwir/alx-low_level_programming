@@ -2,29 +2,34 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define PASSWORD_LENGTH 12
-
+/**
+ * main - program that generates passwords randomly
+ * programs of 11 passwords 
+ *
+ * Return: Always 0 
+ */
 int main(void)
 {
-    char password[PASSWORD_LENGTH + 1]; 
+	int pass[100];
+	int i, sum, n;
 
-   
-    srand(time(NULL));
+	sum = 0;
 
-    
-    for (int i = 0; i < PASSWORD_LENGTH; i++) {
-        int random = rand() % 62; 
-        if (random < 26) {
-            password[i] = 'a' + random;
-        } else if (random < 52) {
-            password[i] = 'A' + random - 26; 
-        } else {
-            password[i] = '0' + random - 52; 
-        }
-    }
-    password[PASSWORD_LENGTH] = '\0'; 
+	srand(time(NULL));
 
-    printf("%s\n", password);
+	for (i = 0; i < 100; i++)
+	{
+		pass[i] = rand() % 78;
+		sum += (pass[i] + '0');
+		putchar(pass[i] + '0');
+		if ((2772 - sum) - '0' < 78)
+		{
+			n = 2772 - sum - '0';
+			sum += n;
+			putchar(n + '0');
+			break;
+		}
+	}
 
-    return 0;
+	return (0);
 }
