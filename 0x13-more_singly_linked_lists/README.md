@@ -937,23 +937,7 @@ int main(void)
 }
 julien@ubuntu:~/0x13. More singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 101-main.c 2-add_nodeint.c 101-print_listint_safe.c -o m
 julien@ubuntu:~/0x13. More singly linked lists$ ./m
-[0x1b500f0] 1024
-[0x1b500d0] 402
-[0x1b500b0] 98
-[0x1b50090] 4
-[0x1b50070] 3
-[0x1b50050] 2
-[0x1b50030] 1
-[0x1b50010] 0
-[0x1b50600] 1024
-[0x1b505e0] 402
-[0x1b505c0] 98
-[0x1b505a0] 4
-[0x1b50580] 3
-[0x1b50560] 2
-[0x1b50540] 1
-[0x1b50110] 0
--> [0x1b505c0] 98
+
 julien@ubuntu:~/0x13. More singly linked lists$
 Repo:
 
@@ -1014,22 +998,7 @@ int main(void)
 }
 julien@ubuntu:~/0x13. More singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 102-main.c 2-add_nodeint.c 101-print_listint_safe.c 102-free_listint_safe.c -o n
 julien@ubuntu:~/0x13. More singly linked lists$ ./n 
-[0x11260f0] 1024
-[0x11260d0] 402
-[0x11260b0] 98
-[0x1126090] 4
-[0x1126070] 3
-[0x1126050] 2
-[0x1126030] 1
-[0x1126010] 0
-[0x1126600] 1024
-[0x11265e0] 402
-[0x11265c0] 98
-[0x11265a0] 4
-[0x1126580] 3
-[0x1126560] 2
-[0x1126540] 1
-[0x1126110] 0
+
 -> [0x11265c0] 98
 (nil), (nil)
 julien@ubuntu:~/0x13. More singly linked lists$ 
@@ -1103,26 +1072,7 @@ int main(void)
 }
 julien@ubuntu:~/0x13. More singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 103-main.c 2-add_nodeint.c 101-print_listint_safe.c 102-free_listint_safe.c 103-find_loop.c -o o
 julien@ubuntu:~/0x13. More singly linked lists$ ./o 
-[0x13700f0] 1024
-[0x13700d0] 402
-[0x13700b0] 98
-[0x1370090] 4
-[0x1370070] 3
-[0x1370050] 2
-[0x1370030] 1
-[0x1370010] 0
-[0x1370560] 1024
-[0x1370540] 402
-[0x1370010] 98
-[0x1370030] 7
-[0x1370050] 6
-[0x1370070] 5
-[0x1370090] 4
-[0x13700b0] 3
-[0x13700d0] 2
-[0x13700f0] 1
-[0x1370110] 0
--> [0x1370030] 7
+
 Loop starts at [0x1370030] 7
 julien@ubuntu:~/0x13. More singly linked lists$ 
 Repo:
@@ -1131,4 +1081,3 @@ GitHub repository: alx-low_level_programming
 Directory: 0x13-more_singly_linked_lists
 File: 103-find_loop.c
   
-Copyright © 2023 ALX, All rights reserved.
