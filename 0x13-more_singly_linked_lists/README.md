@@ -748,13 +748,7 @@ julien@ubuntu:~/0x13. More singly linked lists$ valgrind ./k
 402
 1024
 -----------------
-0
-1
-2
-3
-4
-402
-1024
+
 -----------------
 1
 2
