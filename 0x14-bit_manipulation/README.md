@@ -186,26 +186,4 @@ where index is the index, starting from 0 of the bit you want to set
 Returns: 1 if it worked, or -1 if an error occurred
 julien@ubuntu:~/0x14. Binary$ cat 3-main.c
 #include <stdio.h>
-#include "main.h"
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    unsigned long int 
-}
-julien@ubuntu:~/0x14. Binary$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-flip_bits.c -o f
-julien@ubuntu:~/0x14. Binary$ ./f
-2
-5
-3
-1
-julien@ubuntu:~/0x14. Binary$ 
-Repo:
-
-GitHub repository: alx-low_level_programming
-Directory: 0x14-bit_manipulation
-File: 5-flip_bits.c
+#include "main.??
