@@ -7,4 +7,6 @@
 - What are and how to use the flags O_RDONLY, O_WRONLY
 - What are file permissions, and how to set them when creating a file with the open system call
 - What is a system call
-- What is the difference between a function and a system call
+- What is the difference betwgueen a function and a system call
+ -this maybe not only for developing as task but also for studying as software engineer
+  
