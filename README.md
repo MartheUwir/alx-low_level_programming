@@ -1,3 +1,2 @@
 # alx-low_level_programming
-this is starting of my al
-and keep on going deep though th
+this is starting ojf my al
