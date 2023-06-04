@@ -1,2 +1,2 @@
 # alx-low_level_programming
-this is starting ojf my al
+this is starting of my alx journey
